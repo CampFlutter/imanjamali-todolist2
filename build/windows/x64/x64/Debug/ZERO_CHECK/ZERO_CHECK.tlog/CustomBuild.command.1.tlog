@@ -1,0 +1,10 @@
+^F:\FLUTTER_APPLICATION_TODOLIST\BUILD\WINDOWS\X64\CMAKEFILES\800044E7155B9B09C1E7962E6F5520BE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/flutter_application_todolist/windows -BF:/flutter_application_todolist/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/flutter_application_todolist/build/windows/x64/flutter_application_todolist.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

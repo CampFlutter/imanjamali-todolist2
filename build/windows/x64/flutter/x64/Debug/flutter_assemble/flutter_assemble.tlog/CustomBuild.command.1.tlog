@@ -1,0 +1,28 @@
+^F:\FLUTTER_APPLICATION_TODOLIST\BUILD\WINDOWS\X64\CMAKEFILES\5CCE721241ACE6A772F6C88FB2B16C21\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=G:\flutter PROJECT_DIR=F:\flutter_application_todolist FLUTTER_ROOT=G:\flutter FLUTTER_EPHEMERAL_DIR=F:\flutter_application_todolist\windows\flutter\ephemeral PROJECT_DIR=F:\flutter_application_todolist FLUTTER_TARGET=F:\flutter_application_todolist\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8yZTRiYTljNmZiNDk5Y2NkNGU4MTQyMDU0Mzc4M2NjNzI2N2FlNDA2Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=F:\flutter_application_todolist\.dart_tool\package_config.json G:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\FLUTTER_APPLICATION_TODOLIST\BUILD\WINDOWS\X64\CMAKEFILES\CC5E632A838CD8CB52E8DA366035D7F6\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\FLUTTER_APPLICATION_TODOLIST\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/flutter_application_todolist/windows -BF:/flutter_application_todolist/build/windows/x64 --check-stamp-file F:/flutter_application_todolist/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
